@@ -1,0 +1,3 @@
+batch_id,model,n,refusal_rate
+s2_batch_9,gemma3:4b,190,0.0
+s2_batch_9,qwen3:8b,190,0.0

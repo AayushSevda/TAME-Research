@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "TAME-Research"
+type: software
+version: 1.0.0
+date-released: 2026-05-27
+license: MIT
+abstract: "Reproducible benchmark and analysis pipeline for measuring toxicity amplification across local large language models using neutral, single-identity, and intersectional prompts."

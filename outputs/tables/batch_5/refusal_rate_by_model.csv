@@ -1,0 +1,4 @@
+batch_id,model,n,refusal_rate
+batch_5,llama3,200,0.0
+batch_5,mistral,200,0.0
+batch_5,phi3:mini-4k,200,0.005
