@@ -1,26 +1,3 @@
-"""
-03_analyze.py
-
-Batch-aware TAME analysis.
-
-Inputs (per batch):
-  data/batches/<batch_id>/generations_scored.csv
-  data/prompts.csv
-
-Outputs (per batch):
-  data/batches/<batch_id>/tame_analysis.csv
-  data/batches/<batch_id>/human_audit_sample.csv
-  outputs/tables/<batch_id>/*.csv
-
-Combined outputs (all configured batches):
-  data/batches/combined/tame_analysis.csv
-  data/batches/combined/human_audit_sample.csv
-  outputs/tables/combined/*.csv
-
-Hard validation:
-  This script fails fast if any configured batch is incomplete.
-"""
-
 from __future__ import annotations
 
 import logging
