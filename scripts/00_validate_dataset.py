@@ -1,21 +1,3 @@
-"""
-00_validate_dataset.py
-
-Hard validation for the TAME experiment dataset to prevent silent failures and misleading results.
-
-This script is designed to be run:
-1) Before generation (validates prompts.csv only)
-2) After generation + scoring (validates prompts + generations_raw + generations_scored)
-
-Behavior:
-- Always validates data/prompts.csv strictly (fails on any issue).
-- Validates generations_raw.csv and generations_scored.csv only if the files exist.
-  (So it won't fail before you've generated/scored.)
-
-Run from project root:
-  python scripts/00_validate_dataset.py
-"""
-
 from __future__ import annotations
 
 import argparse
