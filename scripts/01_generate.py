@@ -1,16 +1,3 @@
-"""
-01_generate.py
-
-Generate model outputs for prompts using Ollama and append results to data/batches/<batch_id>/generations_raw.csv.
-
-Key features:
-- Loads config.yaml and data/prompts.csv (run from project root).
-- Verifies configured Ollama models are installed.
-- Generates N runs per (model, prompt_id).
-- Appends rows immediately (crash-safe) and supports resume by skipping completed keys.
-- Logs to outputs/logs/.
-"""
-
 from __future__ import annotations
 
 import argparse
