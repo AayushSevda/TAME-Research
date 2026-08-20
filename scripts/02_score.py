@@ -1,17 +1,3 @@
-"""
-02_score.py
-
-Score generated outputs using Detoxify and append results to:
-  data/batches/<batch_id>/generations_scored.csv
-
-Key features:
-- Loads config.yaml and data/batches/<batch_id>/generations_raw.csv.
-- Scores Detoxify dimensions: toxicity, severe_toxicity, obscene, threat, insult, identity_attack.
-- Adds refusal_detected + refusal_reason (heuristic) and output_word_count.
-- Supports resume by skipping (model, prompt_id, run) already present in generations_scored.csv.
-- Logs to outputs/logs/.
-"""
-
 from __future__ import annotations
 
 import csv
