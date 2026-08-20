@@ -1,17 +1,3 @@
-"""
-04_make_figures.py
-
-Batch-aware figure generation from TAME analysis outputs.
-
-Reads:
-  data/batches/<batch_id>/tame_analysis.csv (per batch)
-  data/batches/combined/tame_analysis.csv   (combined)
-
-Writes:
-  outputs/figures/<batch_id>/*.png
-  outputs/figures/combined/*.png
-"""
-
 from __future__ import annotations
 
 import logging
