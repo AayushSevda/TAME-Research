@@ -1,14 +1,3 @@
-"""
-05_export_paper_tables.py
-
-Batch-aware export of publication-ready CSV + Markdown tables.
-
-For each configured batch_id and for the combined scope, writes tables into:
-  outputs/tables/<scope>/
-
-Where <scope> is batch_id (e.g., batch_1) or "combined".
-"""
-
 from __future__ import annotations
 
 import logging
